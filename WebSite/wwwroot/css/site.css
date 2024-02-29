@@ -18,6 +18,7 @@
   height: 100px;
   font-size: 50px;
   text-align: center;
+  display:block;
 }
 
 nav {
@@ -45,7 +46,7 @@ img {
   padding: 20px;
   margin-bottom: 0px;
   background-size: contain;
-  display: block;
+  display: flex;
   background: rgba(0, 0, 0, 0.5);
   place-content: space-between;
   align-self: center;
@@ -62,6 +63,7 @@ main {
 }
 
 footer {
+  float: none;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   font-size: 2rem;
@@ -75,6 +77,8 @@ body {
 }
 
 .per {
+  position: relative;
+  bottom: 340px;
   width: 1020px;
   text-align: center;
   display: block;
@@ -105,8 +109,12 @@ body {
 }
 
 .kopis {
+  position: relative;
+  bottom: 340px;
+  left: 540px;
+  height: 300px;
   font-size: 30px;
-  width: 500px;
+  width: 440px;
   padding: 20px;
   text-align: center;
   display: block;
