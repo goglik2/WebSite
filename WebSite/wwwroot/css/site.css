@@ -157,3 +157,35 @@ body {
 .Main:hover {
   transform: scale(1.02);
 }
+
+.autorize {
+  text-align: center;
+}
+
+.AdminPanel {
+  text-align: center;
+}
+
+.Zagol {
+  text-align: center;
+}
+
+.AdminName {
+  display: block;
+  text-align: center;
+  padding: 3%;
+  font-size: small;
+}
+
+.AdminPassword {
+  display: block;
+  text-align: center;
+  padding: 3%;
+  font-size: small;
+}
+
+.AdminConfirm {
+  display: block;
+  text-align: center;
+  padding: 3%;
+}
