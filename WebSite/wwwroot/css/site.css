@@ -63,12 +63,13 @@ main {
 }
 
 footer {
-  float: none;
+    position: relative;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   font-size: 2rem;
   height: 50px;
   align-items: center;
+  top: 310px;
 }
 
 body {
@@ -82,7 +83,7 @@ body {
   width: 1020px;
   text-align: center;
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: -310px;
   background: rgba(0, 0, 0, 0.5);
 }
 
@@ -119,4 +120,14 @@ body {
   text-align: center;
   display: block;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.ogran {
+    top: 155px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    width: 1020px;
+    height: 300px;
+    text-align: center;
+    display: block;
 }
