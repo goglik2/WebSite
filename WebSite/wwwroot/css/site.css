@@ -63,13 +63,11 @@ main {
 }
 
 footer {
-    position: relative;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   font-size: 2rem;
-  height: 50px;
+  height: 200px;
   align-items: center;
-  top: 310px;
 }
 
 body {
@@ -123,11 +121,21 @@ body {
 }
 
 .ogran {
-    top: 155px;
     position: relative;
     background: rgba(0, 0, 0, 0.5);
     width: 1020px;
-    height: 300px;
     text-align: center;
     display: block;
+}
+
+.back-button {
+  font-size: 70px;
+  position: relative;
+  right: 210px;
+}
+
+.next-button {
+  font-size: 70px;
+  position: relative;
+  left: 210px;
 }
