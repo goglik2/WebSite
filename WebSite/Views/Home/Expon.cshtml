@@ -2,7 +2,10 @@
 
 @foreach (var item in Model)
 {
-    <span class="ExpName">@item.Name</span>
+    if (@item.ID == @ViewData["id"].ToString())
+    {
+        <span class="ExpName">@item.Name</span>
         <img class="imageExp" src=@item.Image alt="Экспонат">
         <p class="opis">@item.Info</p>
+    }
 }

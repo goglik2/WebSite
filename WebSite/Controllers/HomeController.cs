@@ -52,14 +52,26 @@ public class HomeController : Controller
         return View(modelList); // передача списка моделей в представление
     }
 
-    public IActionResult Expon()
+    public IActionResult Expon(int id)
     {
         List<Models.ExponInfoList> infolist = new List<Models.ExponInfoList>();
         
-        infolist.Add(new Models.ExponInfoList() { ID = "0", Name = "Описание экспоната 1", Image = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg",  Info = "Описание эксспоната 1"});
-        infolist.Add(new Models.ExponInfoList() { ID = "1", Name = "Описание экспоната 2", Image = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg",  Info = "Описание экспоната 2"});
-        infolist.Add(new Models.ExponInfoList() { ID = "2", Name = "Описание экспоната 3", Image = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg",  Info = "Описание эксспоната 3"});
-        infolist.Add(new Models.ExponInfoList() { ID = "3", Name = "Описание экспоната 4", Image = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg",  Info = "Описание экспоната 4"});
+        infolist.Add(new Models.ExponInfoList() { ID = "0", Name = "Название экспоната 1", Image = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg",  Info = "Описание эксспоната 1"});
+        infolist.Add(new Models.ExponInfoList() { ID = "1", Name = "Название экспоната 2", Image = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg",  Info = "Описание экспоната 2"});
+        infolist.Add(new Models.ExponInfoList() { ID = "2", Name = "Название экспоната 3", Image = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg",  Info = "Описание экспоната 3"});
+        infolist.Add(new Models.ExponInfoList() { ID = "3", Name = "Название экспоната 4", Image = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg",  Info = "Описание экспоната 4"});
+        infolist.Add(new Models.ExponInfoList() { ID = "4", Name = "Название экспоната 5", Image = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg",  Info = "Описание экспоната 5"});
+        infolist.Add(new Models.ExponInfoList() { ID = "5", Name = "Название экспоната 6", Image = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg",  Info = "Описание экспоната 6"});
+        infolist.Add(new Models.ExponInfoList() { ID = "6", Name = "Название экспоната 7", Image = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg",  Info = "Описание экспоната 7"});
+        infolist.Add(new Models.ExponInfoList() { ID = "7", Name = "Название экспоната 8", Image = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg",  Info = "Описание экспоната 8"});
+        infolist.Add(new Models.ExponInfoList() { ID = "8", Name = "Название экспоната 9", Image = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg",  Info = "Описание экспоната 9"});
+        infolist.Add(new Models.ExponInfoList() { ID = "9", Name = "Название экспоната 10", Image = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg",  Info = "Описание экспоната 10"});
+        infolist.Add(new Models.ExponInfoList() { ID = "10", Name = "Название экспоната 11", Image = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg",  Info = "Описание экспоната 11"});
+        infolist.Add(new Models.ExponInfoList() { ID = "11", Name = "Название экспоната 12", Image = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg",  Info = "Описание экспоната 12"});
+        infolist.Add(new Models.ExponInfoList() { ID = "12", Name = "Название экспоната 13", Image = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg",  Info = "Описание экспоната 13"});
+        infolist.Add(new Models.ExponInfoList() { ID = "13", Name = "Название экспоната 14", Image = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg",  Info = "Описание экспоната 14"});
+        infolist.Add(new Models.ExponInfoList() { ID = "14", Name = "Название экспоната 15", Image = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg",  Info = "Описание экспоната 15"});
+        ViewData["id"] = id;
         return View(infolist);
     }
 
