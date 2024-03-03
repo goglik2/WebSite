@@ -1,8 +1,8 @@
-<span class="ExpName">Название экспоната</span>
-<img class="imageExp" src="https://idei.club/uploads/posts/2022-03/1647273181_51-idei-club-p-interer-sovremennogo-muzeya-interer-krasiv-66.jpg" alt="Экспонат">
-<p class="opis">
-    описание описание описание описание описание описание описание описание описание описание описание описание
-    описание описание описание описание описание описание описание описание описание описание описание описание
-    описание описание описание описание описание описание описание описание описание описание описание описание
-    описание описание описание описание описание описание описание описание описание описание описание описание
-</p>
+@model List<ExponInfoList>
+
+@foreach (var item in Model)
+{
+    <span class="ExpName">@item.Name</span>
+        <img class="imageExp" src=@item.Image alt="Экспонат">
+        <p class="opis">@item.Info</p>
+}
