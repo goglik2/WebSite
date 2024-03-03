@@ -6,24 +6,25 @@
 
 .logo {
   background: rgba(0, 0, 0, 0.3);
-  height: 100px;
+  height: 100%;
 }
 
 .prelogo {
-  height: 100px;
-  font-size: 50px;
+  text-align: center;
+  height: 100%;
+  font-size: 120%;
 }
 
 .name {
-  height: 100px;
-  font-size: 50px;
+  height: 100%;
+  font-size: 100%;
   text-align: center;
   display:block;
 }
 
 nav {
   background: rgba(0, 0, 0, 0.3);
-  height: 100px;
+  height: 100%;
   width: 11.55%;
 }
 
@@ -32,7 +33,7 @@ header {
   display: flex;
   justify-content: space-between;
   background: rgba(0, 0, 0, 0.5);
-  height: 100px;
+  height: 70px;
   align-items: center;
 }
 
@@ -44,8 +45,7 @@ a {
 img {
   height: 300px;
   width: 500px;
-  padding: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 0%;
   background-size: contain;
   display: flex;
   background: rgba(0, 0, 0, 0.5);
@@ -59,15 +59,14 @@ main {
   display: block;
   align-items: center;
   justify-content: center;
-  margin: 30px 200px 0px 300px;
-  font-size: 50px;
+  margin: 0% 10% 0% 20%;
+  font-size: 350%;
 }
 
 footer {
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   font-size: 2rem;
-  height: 200px;
   align-items: center;
 }
 
@@ -79,7 +78,7 @@ body {
 .per {
   position: relative;
   bottom: 340px;
-  width: 1020px;
+  width: 95.5%;
   text-align: center;
   display: block;
   margin-bottom: -310px;
@@ -87,7 +86,7 @@ body {
 }
 
 .ExpName {
-  width: 1020px;
+  width: 95.5%;
   text-align: center;
   display: block;
   background: rgba(0, 0, 0, 0.5);
@@ -111,11 +110,9 @@ body {
 .kopis {
   position: relative;
   bottom: 340px;
-  left: 540px;
   height: 300px;
   font-size: 30px;
-  width: 440px;
-  padding: 20px;
+  width: 95.5%;
   text-align: center;
   display: block;
   background: rgba(0, 0, 0, 0.5);
@@ -124,7 +121,7 @@ body {
 .ogran {
     position: relative;
     background: rgba(0, 0, 0, 0.5);
-    width: 1020px;
+    width: 95.5%;
     text-align: center;
     display: block;
 }
@@ -132,13 +129,13 @@ body {
 .back-button {
   font-size: 70px;
   position: relative;
-  right: 210px;
+  right: 30%;
 }
 
 .next-button {
   font-size: 70px;
   position: relative;
-  left: 210px;
+  left: 30%;
 }
 
 .per:hover {
@@ -151,7 +148,9 @@ body {
 
 .Main {
   position: relative;
-  right: 2px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 70px;
+  float: right;
 }
 
 .Main:hover {
