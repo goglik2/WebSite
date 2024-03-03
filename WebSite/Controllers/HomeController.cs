@@ -17,11 +17,11 @@ public class HomeController : Controller
     {
         List<Models.ExponList> modelList = new List<Models.ExponList>();
 
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 1", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 1" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 2", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 2" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 3", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 3" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 4", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 4" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 5", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 5" });
+        modelList.Add(new Models.ExponList() { ID = 1, ExpName = "Название экспоната 1", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 1" });
+        modelList.Add(new Models.ExponList() { ID = 2, ExpName = "Название экспоната 2", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 2" });
+        modelList.Add(new Models.ExponList() { ID = 3, ExpName = "Название экспоната 3", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 3" });
+        modelList.Add(new Models.ExponList() { ID = 4, ExpName = "Название экспоната 4", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 4" });
+        modelList.Add(new Models.ExponList() { ID = 5, ExpName = "Название экспоната 5", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 5" });
         
         return View(modelList); // передача списка моделей в представление
     }
@@ -30,11 +30,11 @@ public class HomeController : Controller
     {
         List<Models.ExponList> modelList = new List<Models.ExponList>();
 
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 1", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 1" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 2", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 2" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 3", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 3" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 4", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 4" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 5", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 5" });
+        modelList.Add(new Models.ExponList() { ID = 6, ExpName = "Название экспоната 1", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 1" });
+        modelList.Add(new Models.ExponList() { ID = 7, ExpName = "Название экспоната 2", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 2" });
+        modelList.Add(new Models.ExponList() { ID = 8, ExpName = "Название экспоната 3", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 3" });
+        modelList.Add(new Models.ExponList() { ID = 9, ExpName = "Название экспоната 4", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 4" });
+        modelList.Add(new Models.ExponList() { ID = 10, ExpName = "Название экспоната 5", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 5" });
         
         return View(modelList); // передача списка моделей в представление
     }
@@ -43,11 +43,11 @@ public class HomeController : Controller
     {
         List<Models.ExponList> modelList = new List<Models.ExponList>();
 
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 1", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 1" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 2", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 2" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 3", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 3" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 4", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 4" });
-        modelList.Add(new Models.ExponList() { ExpName = "Название экспоната 5", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 5" });
+        modelList.Add(new Models.ExponList() { ID = 11, ExpName = "Название экспоната 1", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 1" });
+        modelList.Add(new Models.ExponList() { ID = 12, ExpName = "Название экспоната 2", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 2" });
+        modelList.Add(new Models.ExponList() { ID = 13, ExpName = "Название экспоната 3", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 3" });
+        modelList.Add(new Models.ExponList() { ID = 14, ExpName = "Название экспоната 4", ImageUrl = "https://i.pinimg.com/originals/d7/a4/d6/d7a4d6e3c45cb7fb4ecbb73137f3d974.jpg", Description = "Описание экспоната 4" });
+        modelList.Add(new Models.ExponList() { ID = 15, ExpName = "Название экспоната 5", ImageUrl = "https://img.tourister.ru/files/2/4/6/2/1/6/1/1/original.jpg", Description = "Описание экспоната 5" });
         
         return View(modelList); // передача списка моделей в представление
     }
